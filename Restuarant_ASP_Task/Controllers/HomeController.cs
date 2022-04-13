@@ -12,5 +12,31 @@ namespace Restuarant_ASP_Task.Controllers
         {
             return View();
         }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Special_Dishes()
+        {
+            return View();
+        }
+
+        public IActionResult Menu()
+        {
+            return View();
+        }
+
+        public IActionResult Team()
+        {
+            return View();
+        }
+
+        public IActionResult Reservation()
+        {
+            return View();
+        }
+
     }
 }

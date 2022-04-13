@@ -14,6 +14,7 @@ namespace Restuarant_ASP_Task.Entities
         public string Type { get; set; }
 
         public double Price { get; set; }
+        public string ImagePath { get; set; }
 
     }
 }

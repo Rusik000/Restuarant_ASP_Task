@@ -15,5 +15,6 @@ namespace Restuarant_ASP_Task.DATA
 
         }
         public DbSet<Meal> Meals { get; set; }
+
     }
 }

@@ -9,9 +9,9 @@ namespace Restuarant_ASP_Task.Services
 {
     public interface IRepository
     {
-        void Add(Meal meal);
+        void Add(Meal item);
         void Delete(int id);
-        void Update(Meal meal);
+        void Update(Meal item);
         Meal Get(int id);
         IEnumerable<Meal> GetAll();
     }
